@@ -1,0 +1,1 @@
+web: gunicorn TrayectoriaBack.wsig:application --pythonpath app --log-file -
