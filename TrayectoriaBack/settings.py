@@ -25,7 +25,7 @@ SECRET_KEY = '^r=o&58_*rd24oh#ivny-k&7x(^6!ydr=o^oi+x3%4&c=l*v1$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["appbanck.herokuapp.com"]
 
 
 # Application definition
@@ -111,13 +111,25 @@ WSGI_APPLICATION = 'TrayectoriaBack.wsgi.application'
 #     }
 # }
 # 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME':'backendd',
+#         'USER': 'postgres',
+#         'PASSWORD':'4046', 
+#         'HOST':'127.0.0.1',
+#         'PORT': '5432'
+
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'backendd',
-        'USER': 'postgres',
-        'PASSWORD':'4046', 
-        'HOST':'127.0.0.1',
+        'NAME':'d3rs3ulfef41c5',
+        'USER': 'dznqdnxchbxxdx',
+        'PASSWORD':'607c8fde94e4a72bb3a6dc5cf62dede566ef3225a940726693fbe206da2fc5d5', 
+        'HOST':'ec2-50-17-197-184.compute-1.amazonaws.com',
         'PORT': '5432'
 
     }
