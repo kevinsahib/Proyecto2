@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 
     'Dashboard', 
     'Profile',
+    'Alumnos',
 ]
 
 SITE_ID = 1
