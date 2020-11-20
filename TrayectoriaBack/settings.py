@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'rest_framework.authtoken',
 
-    'Dashboard', 
+    'auth_user', 
     'Profile',
     'Alumnos',
 ]
