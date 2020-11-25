@@ -40,5 +40,3 @@ class AlumnosModelView(APIView):
             serializer.save()
             return Response("Editado")
         return Response("Error formato")
-
-# hjbjbjb
