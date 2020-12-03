@@ -4,6 +4,7 @@ from django.shortcuts import get_object_or_404
 from django.http import Http404
 from rest_framework.response import Response
 from rest_framework.views import APIView
+from rest_framework import permissions
 
 
 # --------------MODELOS-------------------
@@ -14,6 +15,7 @@ from Alumnos.serializers import AlumnosModelSerializers
 
 # -------------------VIEWS-----------------
 class AlumnosModelView(APIView):
+    permission_classes = [permissions.IsAuthenticated]
 
     def post(self, request, format=None):
         serializer =  AlumnosModelSerializers(data = request.data, context = {'request': request})
