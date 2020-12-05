@@ -98,17 +98,7 @@ TEMPLATES = [
 WSGI_APPLICATION = 'TrayectoriaBack.wsgi.application'
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME':'d3rs3ulfef41c5',
-        'USER': 'dznqdnxchbxxdx',
-        'PASSWORD':'607c8fde94e4a72bb3a6dc5cf62dede566ef3225a940726693fbe206da2fc5d5', 
-        'HOST':'ec2-50-17-197-184.compute-1.amazonaws.com',
-        'PORT': '5432'
-
-    }
-}
+SECRET_DATABASE= config('SECRET_DATABASE')
 
 
 # Password validation
