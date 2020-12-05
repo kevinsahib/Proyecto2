@@ -97,7 +97,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'TrayectoriaBack.wsgi.application'
 
-
+# Secret DB
 SECRET_DATABASE= config('SECRET_DATABASE')
 
 
