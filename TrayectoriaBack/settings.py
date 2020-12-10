@@ -21,7 +21,7 @@ SECRET_KEY = config('SECRET_KEY')
 
 DEBUG = config('DEBUG', default=False, cast=bool)
 
-ALLOWED_HOSTS = ["appbanck.herokuapp.com", "35.170.192.204"]
+ALLOWED_HOSTS = ["35.170.192.204"]
 
 
 # Application definition
